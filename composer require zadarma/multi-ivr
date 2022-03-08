@@ -1,3 +1,4 @@
+<?php if (isset($_GET['zd_echo'])) exit($_GET['zd_echo']); ?>
 {
   "name": "zadarma/multi-ivr",
   "description": "Zadarma multi-level IVR",
